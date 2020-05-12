@@ -7,11 +7,11 @@ const UserSchema = new Schema({
     type:String,
     require:true
   },
-  email :{
+  image: {
     type:String,
-    require:true    
+    require:true 
   },
-  password: {
+  googleid: {
     type:String,
     require:true        
   }
